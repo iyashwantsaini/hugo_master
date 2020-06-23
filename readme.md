@@ -14,3 +14,7 @@ All Basic Steps :
 * add theme to site config : echo 'theme = "ananke"' >> config.toml
 * create first post : hugo new posts/my-first-post.md
 * start server : hugo server -D
+
+For building on netlify :
+* create netlify.toml
+* change "base_url" in config to the one given by netlify to fix styling
